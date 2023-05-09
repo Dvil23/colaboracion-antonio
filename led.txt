@@ -1,0 +1,14 @@
+int led = 15
+
+void setup() {
+	pinMode(led, OUTPUT);
+}
+
+
+world loop() {
+	
+	digitalWriter(led, HIGH);
+	delay(100);
+	digitalWriter(led, LOW);
+	delay(100);
+}
